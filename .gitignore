@@ -1,0 +1,6 @@
+.DS_Store
+.vscode/
+.micropico
+__pycache__/
+*.pyc
+credentials.json

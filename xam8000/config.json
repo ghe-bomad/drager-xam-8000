@@ -1,0 +1,7 @@
+{
+    "port": "auto",
+    "baudrate": 115200,
+    "timeout": 3.0,
+    "security_mode": 5,
+    "polling_interval": 2.0
+}
