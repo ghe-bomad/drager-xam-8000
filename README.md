@@ -31,11 +31,12 @@ with DragerXam8000("COM4") as device:
     # Read all gas sensors
     for reading in device.get_gas_readings():
         print(reading)
-    # CO2: 0.0 % vol
-    # CH4: 0.0 % vol
-    # O2: 20.9 % vol
-    # H2S: 0.0 ppm
-    # NH3: 0.0 ppm
+        # CO2: 0.0 % vol
+        # CH4: 0.0 % vol
+        # O2: 20.9 % vol
+        # CO: 0.0 ppm
+        # H2S: 0.0 ppm
+        # NH3: 0.0 ppm
 
     # Device info
     print(device.get_device_info())
