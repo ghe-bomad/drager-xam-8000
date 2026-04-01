@@ -105,11 +105,11 @@ Set `port` to your COM port (e.g. `"COM4"`, `"/dev/ttyUSB0"`) or `"auto"` for au
 }
 ```
 
-Keys are security mode numbers. Mode 0 provides basic access (device info only). Mode 5 enables protobuf services (sensor data, database queries). A template is provided in `credentials.template.json`.
+Keys are security mode numbers. Mode 0 provides basic access (device info only) and its value is the password you set in CC-Vision. Mode 5 enables protobuf services (sensor data, database queries). A template is provided in `credentials.template.json`.
 
 ### Obtaining the passwords
 
-The passwords are not publicly documented. They can be extracted from DLLs shipped with [Dräger GasVision](https://www.draeger.com/en_uk/Products/GasVision).
+Mode 5 password is not publicly documented. It can be extracted from DLLs shipped with [Dräger GasVision](https://www.draeger.com/en_uk/Products/GasVision).
 
 ## Sensors
 
